@@ -1,10 +1,10 @@
 {
   "name": "node-sass-bypass",
   "version": "1.0.0",
-  "description": "Bypass scss import so your isomorphic code can work",
+  "description": "Bypass scss imports so your isomorphic code can work",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel/register test.js"
   },
   "keywords": [
     "webpack",
@@ -12,5 +12,9 @@
     "loader"
   ],
   "author": "Romain Berger <romain@romainberger.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "mocha": "^2.2.5"
+  }
 }
