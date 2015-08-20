@@ -1,0 +1,16 @@
+{
+  "name": "node-sass-bypass",
+  "version": "1.0.0",
+  "description": "Bypass scss import so your isomorphic code can work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "sass",
+    "loader"
+  ],
+  "author": "Romain Berger <romain@romainberger.com>",
+  "license": "MIT"
+}
