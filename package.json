@@ -1,9 +1,10 @@
 {
   "name": "node-sass-bypass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bypass scss imports so your isomorphic code can work",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "start": "babel src --watch --out-dir lib",
     "test": "mocha --compilers js:babel/register test.js"
   },
   "keywords": [
